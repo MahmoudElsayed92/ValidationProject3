@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		143F29B92573F55900ABA3FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F29B82573F55900ABA3FA /* AppDelegate.swift */; };
 		143F29BB2573F55900ABA3FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F29BA2573F55900ABA3FA /* SceneDelegate.swift */; };
-		143F29BD2573F55900ABA3FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F29BC2573F55900ABA3FA /* ViewController.swift */; };
+		143F29BD2573F55900ABA3FA /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F29BC2573F55900ABA3FA /* RegisterVC.swift */; };
 		143F29C02573F55900ABA3FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 143F29BE2573F55900ABA3FA /* Main.storyboard */; };
 		143F29C32573F55900ABA3FA /* VerificationProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 143F29C12573F55900ABA3FA /* VerificationProject.xcdatamodeld */; };
 		143F29C52573F55A00ABA3FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 143F29C42573F55A00ABA3FA /* Assets.xcassets */; };
 		143F29C82573F55A00ABA3FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 143F29C62573F55A00ABA3FA /* LaunchScreen.storyboard */; };
 		143F29D32573F55B00ABA3FA /* VerificationProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F29D22573F55B00ABA3FA /* VerificationProjectTests.swift */; };
 		143F29DE2573F55B00ABA3FA /* VerificationProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F29DD2573F55B00ABA3FA /* VerificationProjectUITests.swift */; };
+		14922CE525741B5D00452EB1 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14922CE425741B5D00452EB1 /* LoginVC.swift */; };
+		14922CEA25741BD000452EB1 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14922CE925741BD000452EB1 /* WelcomeVC.swift */; };
+		14922CF72574434700452EB1 /* CustomUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14922CF62574434700452EB1 /* CustomUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +39,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		143F29B52573F55900ABA3FA /* VerificationProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerificationProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		143F29B52573F55900ABA3FA /* Validation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Validation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		143F29B82573F55900ABA3FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		143F29BA2573F55900ABA3FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		143F29BC2573F55900ABA3FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		143F29BC2573F55900ABA3FA /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		143F29BF2573F55900ABA3FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		143F29C22573F55900ABA3FA /* VerificationProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VerificationProject.xcdatamodel; sourceTree = "<group>"; };
 		143F29C42573F55A00ABA3FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		143F29C72573F55A00ABA3FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		143F29C92573F55A00ABA3FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		143F29CE2573F55B00ABA3FA /* VerificationProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerificationProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		143F29CE2573F55B00ABA3FA /* ValidationProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValidationProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		143F29D22573F55B00ABA3FA /* VerificationProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationProjectTests.swift; sourceTree = "<group>"; };
 		143F29D42573F55B00ABA3FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		143F29D92573F55B00ABA3FA /* VerificationProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerificationProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		143F29D92573F55B00ABA3FA /* ValidationProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValidationProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		143F29DD2573F55B00ABA3FA /* VerificationProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationProjectUITests.swift; sourceTree = "<group>"; };
 		143F29DF2573F55B00ABA3FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14922CE425741B5D00452EB1 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		14922CE925741BD000452EB1 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		14922CF62574434700452EB1 /* CustomUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,9 +97,9 @@
 		143F29B62573F55900ABA3FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				143F29B52573F55900ABA3FA /* VerificationProject.app */,
-				143F29CE2573F55B00ABA3FA /* VerificationProjectTests.xctest */,
-				143F29D92573F55B00ABA3FA /* VerificationProjectUITests.xctest */,
+				143F29B52573F55900ABA3FA /* Validation.app */,
+				143F29CE2573F55B00ABA3FA /* ValidationProjectTests.xctest */,
+				143F29D92573F55B00ABA3FA /* ValidationProjectUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,8 +109,11 @@
 			children = (
 				143F29B82573F55900ABA3FA /* AppDelegate.swift */,
 				143F29BA2573F55900ABA3FA /* SceneDelegate.swift */,
-				143F29BC2573F55900ABA3FA /* ViewController.swift */,
+				143F29BC2573F55900ABA3FA /* RegisterVC.swift */,
 				143F29BE2573F55900ABA3FA /* Main.storyboard */,
+				14922CF62574434700452EB1 /* CustomUI.swift */,
+				14922CE925741BD000452EB1 /* WelcomeVC.swift */,
+				14922CE425741B5D00452EB1 /* LoginVC.swift */,
 				143F29C42573F55A00ABA3FA /* Assets.xcassets */,
 				143F29C62573F55A00ABA3FA /* LaunchScreen.storyboard */,
 				143F29C92573F55A00ABA3FA /* Info.plist */,
@@ -134,9 +143,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		143F29B42573F55900ABA3FA /* VerificationProject */ = {
+		143F29B42573F55900ABA3FA /* ValidationProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 143F29E22573F55B00ABA3FA /* Build configuration list for PBXNativeTarget "VerificationProject" */;
+			buildConfigurationList = 143F29E22573F55B00ABA3FA /* Build configuration list for PBXNativeTarget "ValidationProject" */;
 			buildPhases = (
 				143F29B12573F55900ABA3FA /* Sources */,
 				143F29B22573F55900ABA3FA /* Frameworks */,
@@ -146,14 +155,14 @@
 			);
 			dependencies = (
 			);
-			name = VerificationProject;
+			name = ValidationProject;
 			productName = VerificationProject;
-			productReference = 143F29B52573F55900ABA3FA /* VerificationProject.app */;
+			productReference = 143F29B52573F55900ABA3FA /* Validation.app */;
 			productType = "com.apple.product-type.application";
 		};
-		143F29CD2573F55B00ABA3FA /* VerificationProjectTests */ = {
+		143F29CD2573F55B00ABA3FA /* ValidationProjectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 143F29E52573F55B00ABA3FA /* Build configuration list for PBXNativeTarget "VerificationProjectTests" */;
+			buildConfigurationList = 143F29E52573F55B00ABA3FA /* Build configuration list for PBXNativeTarget "ValidationProjectTests" */;
 			buildPhases = (
 				143F29CA2573F55B00ABA3FA /* Sources */,
 				143F29CB2573F55B00ABA3FA /* Frameworks */,
@@ -164,14 +173,14 @@
 			dependencies = (
 				143F29D02573F55B00ABA3FA /* PBXTargetDependency */,
 			);
-			name = VerificationProjectTests;
+			name = ValidationProjectTests;
 			productName = VerificationProjectTests;
-			productReference = 143F29CE2573F55B00ABA3FA /* VerificationProjectTests.xctest */;
+			productReference = 143F29CE2573F55B00ABA3FA /* ValidationProjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		143F29D82573F55B00ABA3FA /* VerificationProjectUITests */ = {
+		143F29D82573F55B00ABA3FA /* ValidationProjectUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 143F29E82573F55B00ABA3FA /* Build configuration list for PBXNativeTarget "VerificationProjectUITests" */;
+			buildConfigurationList = 143F29E82573F55B00ABA3FA /* Build configuration list for PBXNativeTarget "ValidationProjectUITests" */;
 			buildPhases = (
 				143F29D52573F55B00ABA3FA /* Sources */,
 				143F29D62573F55B00ABA3FA /* Frameworks */,
@@ -182,9 +191,9 @@
 			dependencies = (
 				143F29DB2573F55B00ABA3FA /* PBXTargetDependency */,
 			);
-			name = VerificationProjectUITests;
+			name = ValidationProjectUITests;
 			productName = VerificationProjectUITests;
-			productReference = 143F29D92573F55B00ABA3FA /* VerificationProjectUITests.xctest */;
+			productReference = 143F29D92573F55B00ABA3FA /* ValidationProjectUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +218,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 143F29B02573F55900ABA3FA /* Build configuration list for PBXProject "VerificationProject" */;
+			buildConfigurationList = 143F29B02573F55900ABA3FA /* Build configuration list for PBXProject "ValidationProject" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -222,9 +231,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				143F29B42573F55900ABA3FA /* VerificationProject */,
-				143F29CD2573F55B00ABA3FA /* VerificationProjectTests */,
-				143F29D82573F55B00ABA3FA /* VerificationProjectUITests */,
+				143F29B42573F55900ABA3FA /* ValidationProject */,
+				143F29CD2573F55B00ABA3FA /* ValidationProjectTests */,
+				143F29D82573F55B00ABA3FA /* ValidationProjectUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -262,9 +271,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				143F29C32573F55900ABA3FA /* VerificationProject.xcdatamodeld in Sources */,
-				143F29BD2573F55900ABA3FA /* ViewController.swift in Sources */,
+				14922CF72574434700452EB1 /* CustomUI.swift in Sources */,
+				143F29BD2573F55900ABA3FA /* RegisterVC.swift in Sources */,
 				143F29B92573F55900ABA3FA /* AppDelegate.swift in Sources */,
+				14922CEA25741BD000452EB1 /* WelcomeVC.swift in Sources */,
 				143F29BB2573F55900ABA3FA /* SceneDelegate.swift in Sources */,
+				14922CE525741B5D00452EB1 /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,12 +301,12 @@
 /* Begin PBXTargetDependency section */
 		143F29D02573F55B00ABA3FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 143F29B42573F55900ABA3FA /* VerificationProject */;
+			target = 143F29B42573F55900ABA3FA /* ValidationProject */;
 			targetProxy = 143F29CF2573F55B00ABA3FA /* PBXContainerItemProxy */;
 		};
 		143F29DB2573F55B00ABA3FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 143F29B42573F55900ABA3FA /* VerificationProject */;
+			target = 143F29B42573F55900ABA3FA /* ValidationProject */;
 			targetProxy = 143F29DA2573F55B00ABA3FA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -374,6 +386,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = ValidationProject;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -428,6 +441,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = ValidationProject;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -447,8 +461,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.cAL.VerificationProject;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = co.cAL.validationProject;
+				PRODUCT_NAME = Validation;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -466,8 +480,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.cAL.VerificationProject;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = co.cAL.validationProject;
+				PRODUCT_NAME = Validation;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -491,7 +505,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VerificationProject.app/VerificationProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ValidationProject.app/ValidationProject";
 			};
 			name = Debug;
 		};
@@ -513,7 +527,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VerificationProject.app/VerificationProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ValidationProject.app/ValidationProject";
 			};
 			name = Release;
 		};
@@ -560,7 +574,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		143F29B02573F55900ABA3FA /* Build configuration list for PBXProject "VerificationProject" */ = {
+		143F29B02573F55900ABA3FA /* Build configuration list for PBXProject "ValidationProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				143F29E02573F55B00ABA3FA /* Debug */,
@@ -569,7 +583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		143F29E22573F55B00ABA3FA /* Build configuration list for PBXNativeTarget "VerificationProject" */ = {
+		143F29E22573F55B00ABA3FA /* Build configuration list for PBXNativeTarget "ValidationProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				143F29E32573F55B00ABA3FA /* Debug */,
@@ -578,7 +592,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		143F29E52573F55B00ABA3FA /* Build configuration list for PBXNativeTarget "VerificationProjectTests" */ = {
+		143F29E52573F55B00ABA3FA /* Build configuration list for PBXNativeTarget "ValidationProjectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				143F29E62573F55B00ABA3FA /* Debug */,
@@ -587,7 +601,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		143F29E82573F55B00ABA3FA /* Build configuration list for PBXNativeTarget "VerificationProjectUITests" */ = {
+		143F29E82573F55B00ABA3FA /* Build configuration list for PBXNativeTarget "ValidationProjectUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				143F29E92573F55B00ABA3FA /* Debug */,
